@@ -1,0 +1,25 @@
+Veri Tabanı 1. Ünite Özet
+Veri: ham gözlemler, işlenmemiş gerçekler olarak tanımlayabiliriz. Rakam, harf ve çeşitli imgelerle temsil edilebilir. 
+Veri tabanı dediğimiz kavramda bir konuda birbiri ile bağlı olan amacına uygun olarak düzenlenen veri topluluğuna denir.
+ Daha sonra Veri tabanı yönetim sistemi dediğimiz olay da veri tabanı dediğimiz kavramın bakımını ve
+ düzenlemesini yapmak için geliştirilmiş programdır tüm bunların sonucunda ise bunların tamamını kapsayan sisteme de 
+Veri tabanı sistemi denir.
+Geleneksel dosya sistemi- Veri tabanı yönetim sistemleri:
+Geleneksel dosya da veriler ayrı ayrı saklanırdı. Birbiri ile bağlantılı olan dosyalar aynı dosya ya da başka dosya 
+da saklanırdı. Geleneksel de veri tekrarlanması durumu söz konusu verilere ulaşmakta zorluk çekilmesi gibi. 
+Bu olumsuzluklara bakarsak veri tabanı yönetim sistemlerinin gelişmesinin önünü açmıştır. 
+Veri tabanı yönetim sistemleri ile bu zorluklar minimum seviyeye indirilmiştir. Ancak bunun da 
+olumsuz yani mali açıdan geleneksel sisteme göre dezavantajlıdır.
+Veri tabanı sistemlerinin sıralaması da şu şekilde olabilir:
+1-Hiyerarşik veri tabanı
+2-Ağ veri tabanı
+3-İlişkisel veri taban
+4-Nesneye yönelik veri taban
+Belli başlı veri tabanı yazılımlarıda şunlardır;
+MS Access
+MS SQL Server
+İnformix
+Advantage
+
+
+
