@@ -1,0 +1,38 @@
+--Create Database Okul_Kütüphane
+--use Okul_Kütüphane
+
+--Create table uyeler(
+--Uye_No int not null primary key identity(1,1),
+--Uye_Ad nvarchar(30) not null,
+--Uye_Soyad nvarchar(30) not null,
+--Eposta nvarchar(60) not null,
+--Cinsiyet char(3) not null,
+--Tel char(11) not null
+--)
+--Alter Table uyeler ADD Adres_NO int
+--constraint FK_uyeler_Adres_NO
+--Foreign Key (Adres_No)
+--references Adresler(Adres_NO)
+
+--Alter Table uyeler Drop Sütun adı 
+--Alter Table uyeler Alter Sutun adı Özellik
+
+--Create Table Adresler(
+--Adres_NO int not null Primary key identity(1,1),
+--Sehir nvarchar(50),
+--BinaNo int,
+--Cadde nvarchar(150),
+--Mahalle nvarchar(100),
+--Ulke nvarchar(50),
+--Postakodu int,
+--)
+
+--Create Table Kutuphane(
+--Kutuphane_NO int primary key identity(1,1),
+--Kutuphane_AD nvarchar(50),
+--aciklama nvarchar(100),
+--Adres_NO int constraint FK_Adresler_Kutuphane
+--Foreign Key(Adres_NO) references Adresler(Adres_No)
+--)
+
+--Select * From Kutuphane
